@@ -26,4 +26,14 @@ class BinomialTest extends AnyFreeSpec with Matchers {
     }
 
   }
+
+  "binomialCoefficient" - {
+    "5 3" in {
+      Binomial.binomialCoefficient(5, 3) shouldBe 10
+    }
+
+    "100 90" in {
+      Binomial.binomialCoefficient(100, 90) shouldBe 17310309456440L
+    }
+  }
 }

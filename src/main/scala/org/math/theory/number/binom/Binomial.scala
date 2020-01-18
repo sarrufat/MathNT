@@ -13,4 +13,5 @@ object Binomial extends App {
     }
     internalRecursive(n, 1)
   }
+  def binomialCoefficient(n: Int, k: Int): BigInt = factorial(n) /(factorial(k) * factorial(n-k))
 }
