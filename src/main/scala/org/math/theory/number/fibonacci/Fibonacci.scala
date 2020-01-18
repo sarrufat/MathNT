@@ -35,8 +35,8 @@ object Fibonacci extends App with DefaultInstrumented {
   //fibonacciTimer.time {
 
   // }
-  val tetsValue = 35
-  retsult = fibonacci(tetsValue)
+  val tetsValue = 53
+ // retsult = fibonacci(tetsValue)
   retsult = optFibonacci(tetsValue, 0, 1)
   println(s"fibonacci($tetsValue) = $retsult")
   println(s"optFibonacci($tetsValue) = $retsult")
